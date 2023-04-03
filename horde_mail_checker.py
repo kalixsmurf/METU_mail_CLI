@@ -102,7 +102,7 @@ showMessageHeader = {"Host": "horde.metu.edu.tr",
                                         "Connection":"close"}
 
 
-#VTM4MjEsVjE1OTg2MDg4MzQsSDMxNw%3D%3D%7C3%7C1%7C1%7CD91
+
 
 totalMsgNumber = int(final_request.content.decode("utf-8").split(",")[4].split(":")[1])+20
 for x in range(15):
