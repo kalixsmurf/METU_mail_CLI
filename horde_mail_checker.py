@@ -11,7 +11,7 @@ headers_first = {"Host":"horde.metu.edu.tr","User-Agent": "Mozilla/5.0 (Windows 
                                         "Sec-Fetch-User":"?1",
                                         "Te":"trailers",
                                         "Connection":"close"}
-data_dict_real = {"app":"", "login_post":"1", "url":"", "anchor_string":"", "horde_user":"e123456",#Write your username into horde_user part as e123456
+data_dict_real = {"app":"", "login_post":"1", "url":"", "anchor_string":"", "horde_user":"studentNumber",#Write your username into horde_user part starting with e
                      "horde_pass":"pass", "horde_select_view":"auto", "new_lang":"tr_TR"}#Write your password to horde_pass
 
 first_request = requests.get("https://horde.metu.edu.tr/login.php", headers=headers_first)
